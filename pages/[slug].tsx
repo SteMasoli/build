@@ -11,9 +11,7 @@ const useStyles = makeStyles((theme) => ({
     sectionsMenuContainer: {
         position: 'fixed'
     },
-    sectionsMenu: {
-
-    }
+    sectionsMenu: {}
 }));
 
 function Page({params}) {
@@ -31,7 +29,7 @@ function Page({params}) {
             <div className={classes.sectionsMenuContainer}>
                 <div className={classes.sectionsMenu}>
                     {sections?.map((item) => <CustomButton style={{fontSize: 11, marginTop: 10}}
-                            onClick={() => window.location.href = `#${item?.id}`}>
+                                                           onClick={() => window.location.href = `#${item?.id}`}>
                         {item?.header}
                     </CustomButton>)}
                 </div>
@@ -59,11 +57,10 @@ function Page({params}) {
                 {_showSectionsMenu ?
                     buildSectionsMenu(page?.sections ?? []) : null
                 }
-                {_showSectionsMenu ?
-                    <div className={_sectionsContainerClasses}>
-                        {(page?.sections ?? []).map((item, index) => buildPageSection(item, index))}
-                    </div> : null
-                }
+
+                <div className={_sectionsContainerClasses}>
+                    {(page?.sections ?? []).map((item, index) => buildPageSection(item, index))}
+                </div>
             </div>
         </PageContainer>
     );
@@ -77,7 +74,7 @@ const getStaticPaths = () => {
     return {
         paths: [{
             params: {
-                slug: 'about'
+                slug: 'ebrains'
             }
         }],
         fallback: false

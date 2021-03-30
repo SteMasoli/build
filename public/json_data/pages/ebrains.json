@@ -1,13 +1,23 @@
-[
-  {
-    "title": "Ebrains 1",
-    "description": null,
-    "content": "News 1"
-  },
-  {
-    "id": 2,
-    "title": "Ebrains 2",
-    "description": null,
-    "content": "News 2"
-  }
-]
+{
+  "id": 1,
+  "title": "EBrains",
+  "sections": [
+    {
+      "id": "navigation",
+      "header": "A quick guide to navigating the portal",
+      "asContainer": true,
+      "variant": "light",
+      "carousel": null,
+      "rows": [
+        {
+          "header": "Navigating the Hippocampus Facility Hub Build section",
+          "columns": [
+            {
+              "content": "On the Hippocampus Facility Hub (HFH) Build section page, the users select, via the relevant buttons or from the top menu bar in the home page, the resources they want to access. Currently two resource pages are available: Data and Models. These can be explored through user-friendly point-and-click interfaces."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
