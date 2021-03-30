@@ -2,10 +2,9 @@
   "id": 2,
   "title": "Models",
   "description": null,
-  "content": "",
+  "content": "Computational models of neurons and microcircuits. The models are generated from and validated against experimental data at various levels, are passed through various steps of validation and simplification, and are then used to generate closed-loop robotic controllers and virtual brains. A dedicated cluster computing facility is used for data elaboration and modelling. The user can download and run the public models listed here for the cerebellum.",
   "published_at": "2020-12-17T19:54:40.843Z",
   "created_at": "2020-12-17T19:54:05.066Z",
   "updated_at": "2020-12-17T22:52:04.795Z",
-  "variant": "dark",
   "slug": "models"
 }

@@ -26,13 +26,6 @@
         "type": "url",
         "order": 2,
         "url": "/models"
-      },
-      {
-        "id": 16,
-        "title": "EBRAINS",
-        "type": "url",
-        "order": 3,
-        "url": "/ebrains"
       }
     ]
   },

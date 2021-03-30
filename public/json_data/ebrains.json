@@ -1,0 +1,11 @@
+{
+	"id": 1,
+	"title": "Ebrains",
+	"sections": [
+		{
+			"id": "test",
+			"variant": "dark",
+			"content": "Test content with link <a href="https://hippocampushub.eu">Test link </a>"
+		}
+	]
+}
