@@ -4,16 +4,26 @@
   "sections": [
     {
       "id": "navigation",
-      "header": "A quick guide to navigating the portal",
+      "header": "Cerebellum usecase. Single cell, Network, TVB",
       "asContainer": true,
       "variant": "light",
       "carousel": null,
       "rows": [
         {
-          "header": "Navigating the Hippocampus Facility Hub Build section",
+          "header": "Cerebellum single cells: the mono compartmental granule cell model",
           "columns": [
             {
-              "content": "On the Hippocampus Facility Hub (HFH) Build section page, the users select, via the relevant buttons or from the top menu bar in the home page, the resources they want to access. Currently two resource pages are available: Data and Models. These can be explored through user-friendly point-and-click interfaces."
+              "content": "At the following link can be found an example of single compartmental granule cell optimization:  http://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FSteMasoli%2FCerebellum_GrC_mono&urlpath=tree%2FCerebellum_GrC_mono%2FMono+compartmental+Cerebellar+Granule+cell+optimization.ipynb&branch=main"
+            }
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "header": "Cerebellum single cells: the multi compartmental granule cell model",
+          "columns": [
+            {
+              "content": "At the following link can be found an example of single compartmental granule cell optimization:  "
             }
           ]
         }
