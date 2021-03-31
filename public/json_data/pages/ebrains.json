@@ -13,7 +13,12 @@
           "header": "Cerebellum single cells: the mono compartmental granule cell model: (login at EBRAINS required)",
           "columns": [
             {
+<<<<<<< HEAD
               "content": "At the following link can be found an example of single compartmental granule cell optimization: <a href="http://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FSteMasoli%2FCerebellum_GrC_mono&urlpath=tree%2FCerebellum_GrC_mono%2FMono+compartmental+Cerebellar+Granule+cell+optimization.ipynb&branch=main">Link to the model</a>"
+=======
+              "content": "At the following link can be found an example of single compartmental granule cell optimization:  
+              http://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FSteMasoli%2FCerebellum_GrC_mono&urlpath=tree%2FCerebellum_GrC_mono%2FMono+compartmental+Cerebellar+Granule+cell+optimization.ipynb&branch=main "
+>>>>>>> parent of a8ccc07 (the page does not work)
             }
           ]
         }
