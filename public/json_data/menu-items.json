@@ -40,14 +40,21 @@
     "id": 14,
     "title": "News",
     "type": "url",
-    "order": 3,
+    "order": 4,
     "url": "/news"
+  },
+  {
+      "id": 14,
+    "title": "About",
+    "type": "url",
+    "order": 5,
+    "url": "/about"
   },
   {
     "id": 15,
     "title": "Contacts",
     "type": "url",
-    "order": 4,
+    "order": 6,
     "url": "/contacts"
   }
 ]

@@ -1,0 +1,9 @@
+
+> hbp-frontend@1.0.0 build
+> next build && next export -o build "error" "occurred"
+
+@@@@isProd true
+info  - Creating an optimized production build...
+info  - Using external babel configuration from /home/hub_lab/build/.babelrc
+info  - Compiled successfully
+info  - Collecting page data...
