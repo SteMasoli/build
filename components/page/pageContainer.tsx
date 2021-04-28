@@ -27,7 +27,7 @@ interface IPageProps extends PropsWithChildren<any> {
 }
 
 function _PageContainer(props: IPageProps, ref) {
-    const {children, title = 'Hippocampus Facility Hub', headerCarousel} = props;
+    const {children, title = 'Cerebellum Facility Hub', headerCarousel} = props;
     const [menuItems, setMenuItems] = React.useState<any[]>([]);
     const [config, setConfig] = React.useState<any>({});
     const [loading, setLoading] = React.useState(true);
